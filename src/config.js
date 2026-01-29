@@ -7,7 +7,7 @@ module.exports = {
       url: 'https://github.com/dwiwad',
     },
     {
-      name: 'Google Scholar',
+      name: 'GoogleScholar',
       url: 'https://scholar.google.com/citations?user=WWrGh74AAAAJ&hl=en',
     },
     {
