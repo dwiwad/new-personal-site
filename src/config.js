@@ -1,27 +1,27 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'dwiwad@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/dwiwad',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      name: 'Google Scholar',
+      url: 'https://scholar.google.com/citations?user=WWrGh74AAAAJ&hl=en',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: 'Hockey Decoded',
+      url: 'https://www.hockeydecoded.com',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/dwiwad',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    //{
+    //  name: 'Codepen',
+    //  url: 'https://codepen.io/bchiang7',
+    //},
   ],
 
   navLinks: [
@@ -34,8 +34,16 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
+    },
+    {
+      name: 'Research',
+      url: '/#contact',
+    },
+    {
+      name: 'Interests',
+      url: '/#contact',
     },
     {
       name: 'Contact',
