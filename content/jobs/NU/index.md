@@ -1,10 +1,10 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2019-09-01'
+title: 'DRRC Postdoctoral Fellow'
+company: 'Northwestern University'
+location: 'Chicago, IL'
+range: 'September 2019 - July 2022'
+url: 'https://www.kellogg.northwestern.edu/academics-research/dispute-resolution-research-center/faculty-and-post-doctoral-fellows/'
 ---
 
 - Developed and styled interactive web applications for Apple Music using Ember and SCSS
