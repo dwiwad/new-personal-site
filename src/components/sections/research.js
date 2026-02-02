@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
@@ -6,6 +7,19 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledResearchSection = styled.section`
   max-width: 900px;
+
+  .archive-link-wrapper {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .archive-link {
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
+    &:after {
+      bottom: 0.1em;
+    }
+  }
 
   .research-grid {
     display: grid;
@@ -79,11 +93,13 @@ const StyledResearchSection = styled.section`
 
 const Research = () => {
   const revealContainer = useRef(null);
+  const revealArchiveLink = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
     if (prefersReducedMotion) {return;}
     sr.reveal(revealContainer.current, srConfig());
+    sr.reveal(revealArchiveLink.current, srConfig());
   }, []);
 
   const papers = [
@@ -122,6 +138,12 @@ const Research = () => {
             </a>
           </div>
         ))}
+      </div>
+
+      <div className="archive-link-wrapper">
+        <Link className="inline-link archive-link" to="/research-archive" ref={revealArchiveLink}>
+          view my research archive
+        </Link>
       </div>
     </StyledResearchSection>
   );
