@@ -97,7 +97,9 @@ const Research = () => {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    if (prefersReducedMotion) {return;}
+    if (prefersReducedMotion) {
+      return;
+    }
     sr.reveal(revealContainer.current, srConfig());
     sr.reveal(revealArchiveLink.current, srConfig());
   }, []);
@@ -107,19 +109,19 @@ const Research = () => {
       title:
         'Economic inequality reduces sense of control and increases the acceptability of self-interested unethical behavior.',
       image: '/images/research/paper1.png',
-      link: 'https://doi.org/your-paper-link',
+      link: '/papers/jepg_2023.pdf',
     },
     {
       title:
         'Recognizing the impact of COVID-19 on the poor alters attitudes towards poverty and inequality.',
       image: '/images/research/paper2.png',
-      link: 'https://doi.org/your-paper-link',
+      link: '/papers/jesp_2021.pdf',
     },
     {
       title:
         'Shifting attributions for poverty motivates opposition to inequality and enhances egalitarianism.',
       image: '/images/research/paper3.png',
-      link: 'https://doi.org/your-paper-link',
+      link: '/papers/nhb_2020.pdf',
     },
   ];
 

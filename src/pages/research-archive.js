@@ -143,10 +143,26 @@ const ResearchArchivePage = ({ location }) => {
   const publications = [
     {
       year: 2023,
-      title: 'Inequality increases the acceptability of unethical behavior',
+      title:
+        'Economic inequality reduces sense of control and increases the acceptability of self-interested unethical behavior',
       authors: 'To, C., Wiwad, D., & Kouchaki, M.',
       journal: 'Journal of Experimental Psychology: General',
-      link: 'https://doi.org/10.1037/xge0001423',
+      link: '/papers/jepg_2023.pdf',
+    },
+    {
+      year: 2023,
+      title: 'A many-analysts approach to the relationship between religiosity and well-being',
+      authors: 'Hoogeveen, S., … Wiwad., D., … & Wagenmakers, E-J.',
+      journal: 'Religion, Brain, & Behavior',
+      link: '/papers/rbb_2023.pdf',
+    },
+    {
+      year: 2023,
+      title: 'Measurement issues in the many analysts religion project',
+      authors:
+        'Schreiner, M. R., Mercier, B., Frick, S., Wiwad, D., Schmitt, M. C., Kelly, J. M., & Pütter, J. Q.',
+      journal: 'Religion, Brain, & Behavior',
+      link: '/papers/rbb_comm_2023.pdf',
     },
     {
       year: 2021,
@@ -154,22 +170,22 @@ const ResearchArchivePage = ({ location }) => {
         'Recognizing the impact of COVID-19 on the poor alters attitudes towards poverty and inequality',
       authors: 'Wiwad, D., Mercier, B., Piff, P. K., Shariff, A. F., & Aknin, L. B.',
       journal: 'Journal of Experimental Social Psychology',
-      link: 'https://doi.org/10.1016/j.jesp.2020.104083',
+      link: '/papers/jesp_2021.pdf',
     },
     {
       year: 2020,
       title:
-        'Shifting attributions for poverty motivates opposition to inequality and promotes egalitarianism',
+        'Shifting attributions for poverty motivates opposition to inequality and enhances egalitarianism',
       authors: 'Piff, P. K., Wiwad, D., Robinson, A. R., Aknin, L. B., & Shariff, A. F.',
       journal: 'Nature Human Behavior',
-      link: 'https://doi.org/10.1038/s41562-020-0835-8',
+      link: '/papers/nhb_2020.pdf',
     },
     {
       year: 2020,
       title: 'Does belief in free will increase support for economic inequality?',
       authors: 'Mercier, B., Wiwad, D., Aknin, L. B., Piff, P. K., & Shariff, A. F.',
       journal: 'Collabra: Psychology',
-      link: 'https://doi.org/10.1525/Collabra.303',
+      link: '/papers/collabra_2020.pdf',
     },
     {
       year: 2019,
@@ -177,21 +193,21 @@ const ResearchArchivePage = ({ location }) => {
       authors:
         'Wiwad, D., Mercier, B., Maraun, M. D., Robinson, A. R., Piff, P. K., Aknin, L. B., & Shariff, A. F.',
       journal: 'PLoS ONE',
-      link: 'https://doi.org/10.1371/journal.pone.0218685',
+      link: '/papers/plos_2019.pdf',
     },
     {
       year: 2019,
       title: 'Not all gifts are good: The potential practical costs of motivated gifts',
       authors: 'Aknin, L. B., Wiwad, D., & Girme, Y. U.',
       journal: 'Journal of Applied Social Psychology',
-      link: 'https://doi.org/10.1111/jasp.12566',
+      link: '/papers/jasp_2019.pdf',
     },
     {
       year: 2018,
       title: 'Buying well-being: Spending behavior and happiness',
       authors: 'Aknin, L. B., Wiwad, D., & Hanniball, K.',
       journal: 'Social and Personality Psychology Compass',
-      link: 'https://doi.org/10.1111/spc3.12386',
+      link: '/papers/sppc_2018.pdf',
     },
     {
       year: 2017,
@@ -199,7 +215,7 @@ const ResearchArchivePage = ({ location }) => {
         'Motives matter: The emotional consequences of recalled self- and other-focused prosocial behavior',
       authors: 'Wiwad, D., & Aknin, L. B.',
       journal: 'Motivation and Emotion',
-      link: 'https://doi.org/10.1007/s11031-017-9638-2',
+      link: '/papers/motive_2017.pdf',
     },
     {
       year: 2016,
@@ -207,7 +223,7 @@ const ResearchArchivePage = ({ location }) => {
         'Income mobility breeds tolerance for economic inequality: Cross-national and experimental evidence',
       authors: 'Shariff, A. F., Wiwad, D., & Aknin, L. B.',
       journal: 'Perspectives on Psychological Science',
-      link: 'https://doi.org/10.1177/1745691616635596',
+      link: '/papers/pops_2016.pdf',
     },
   ];
 
