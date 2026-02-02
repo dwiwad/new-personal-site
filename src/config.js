@@ -41,10 +41,10 @@ module.exports = {
       name: 'Research',
       url: '/#research',
     },
-    {
-      name: 'Interests',
-      url: '/#contact',
-    },
+    //{
+    //  name: 'Interests',
+    //  url: '/#contact',
+    //},
     {
       name: 'Contact',
       url: '/#contact',

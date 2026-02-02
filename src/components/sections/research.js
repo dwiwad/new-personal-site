@@ -8,6 +8,56 @@ import { usePrefersReducedMotion } from '@hooks';
 const StyledResearchSection = styled.section`
   max-width: 900px;
 
+  .citation-metrics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    padding: 30px;
+    background-color: var(--light-navy);
+    border-radius: var(--border-radius);
+
+    .metrics-row {
+      display: flex;
+      justify-content: center;
+      gap: 200px;
+      width: 100%;
+
+      @media (max-width: 768px) {
+        gap: 30px;
+      }
+    }
+
+    .metric {
+      text-align: center;
+
+      .number {
+        color: var(--green);
+        font-size: var(--fz-heading);
+        font-weight: 600;
+        font-family: var(--font-mono);
+      }
+
+      .label {
+        color: var(--light-slate);
+        font-size: var(--fz-sm);
+        margin-top: 5px;
+      }
+    }
+
+    .citation-footer {
+      margin-top: 20px;
+      color: var(--slate);
+      font-size: var(--fz-xs);
+      font-family: var(--font-mono);
+
+      a {
+        color: var(--green);
+        margin-left: 10px;
+      }
+    }
+  }
+
   .archive-link-wrapper {
     text-align: center;
     margin-top: 50px;
@@ -128,6 +178,32 @@ const Research = () => {
   return (
     <StyledResearchSection id="research" ref={revealContainer}>
       <h2 className="numbered-heading">Research</h2>
+
+      <div className="citation-metrics">
+        <div className="metrics-row">
+          <div className="metric">
+            <div className="number">985</div>
+            <div className="label">Citations</div>
+          </div>
+          <div className="metric">
+            <div className="number">9</div>
+            <div className="label">h-index</div>
+          </div>
+          <div className="metric">
+            <div className="number">9</div>
+            <div className="label">i10-index</div>
+          </div>
+        </div>
+        <div className="citation-footer">
+          Last updated: February 2026
+          <a
+            href="https://scholar.google.com/citations?user=WWrGh74AAAAJ&hl=en"
+            target="_blank"
+            rel="noreferrer">
+            View Google Scholar
+          </a>
+        </div>
+      </div>
 
       <div className="research-grid">
         {papers.map((paper, i) => (
