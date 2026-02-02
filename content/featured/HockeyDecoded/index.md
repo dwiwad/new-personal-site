@@ -4,6 +4,7 @@ title: 'Hockey Decoded'
 cover: './hockeydecoded.png'
 github: 'https://github.com/dwiwad/hockey_site'
 external: 'https://hockeydecoded.com/'
+cta: 'https://www.hockeydecoded.com'
 tech:
   - Python
   - FastAPI
