@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Hockey Decoded'
-cover: './halcyon.png'
+cover: './hockeydecoded.png'
 github: 'https://github.com/dwiwad/hockey_site'
 external: 'https://hockeydecoded.com/'
 tech:
