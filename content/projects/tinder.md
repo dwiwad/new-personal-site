@@ -2,7 +2,7 @@
 date: '2020-04-22'
 title: 'Why are Tinder app store ratings declining?'
 github: 'https://github.com/dwiwad/Tinder_Trends'
-external: ''
+external: '/project/tinder-ratings'
 tech:
   - R / GGplot
   - Data Viz

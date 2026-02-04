@@ -56,7 +56,7 @@ const TagTemplate = ({ pageContext, data, location }) => {
       <StyledTagsContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
+          <Link to="/archive">All projects</Link>
         </span>
 
         <h1>
@@ -124,7 +124,7 @@ TagTemplate.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query($tag: String!) {
+  query ($tag: String!) {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }

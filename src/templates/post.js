@@ -61,7 +61,7 @@ const PostTemplate = ({ data, location }) => {
       <StyledPostContainer>
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
+          <Link to="/archive">All Projects</Link>
         </span>
 
         <StyledPostHeader>
@@ -99,7 +99,7 @@ PostTemplate.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     markdownRemark(frontmatter: { slug: { eq: $path } }) {
       html
       frontmatter {
